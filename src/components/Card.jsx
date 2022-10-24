@@ -20,7 +20,7 @@ function Card(props) {
             {badgeText}
           </div>
         )}
-        <img src={"/src/assets/" + img} alt="" className=" w-full" />
+        <img src={"./src/assets/" + img} alt="" className=" w-full" />
       </div>
       <div className=" flex flex-col gap-2 text-xs">
         <div className="flex gap-1 items-center justify-start">
